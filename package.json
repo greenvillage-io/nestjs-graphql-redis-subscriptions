@@ -1,10 +1,14 @@
 {
-    "name": "nestjs-graphql-redis-subscriptions",
+    "name": "@greenvillage-io/nestjs-graphql-redis-subscriptions",
     "version": "0.0.6",
     "description": "A nestjs module that provide an instance of graphql-redis-subscriptions",
-    "author": "Alex Hermann <contact@pop-code.com>",
-    "repository": "https://github.com/Pop-Code/nestjs-graphql-redis-subscriptions.git",
+    "repository": "https://github.com/greenvillage-io/nestjs-graphql-redis-subscriptions.git",
+    "author": "Edvin CANDON <edvin.candon@greenvillage-io>",
     "license": "MIT",
+    "publishConfig": {
+        "access": "restricted",
+        "registry": "https://npm.pkg.github.com/"
+    },
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
